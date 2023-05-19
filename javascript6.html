@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .olcu{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+    </style>
+</head>
+
+<body>
+<input id="box1" placeholder="width">
+<input id="box2" placeholder="height">
+<input id="box3" placeholder="background color">
+<button id="duyme">Add</button><br><br>
+<div class="olcu" id="test"></div>
+
+<script>
+    var qiymet1=document.getElementById("box1");
+    var qiymet2=document.getElementById("box2");
+    var qiymet3=document.getElementById("box3");
+    var qutu=document.getElementById("duyme");
+    var qab=document.getElementById("test")
+    qutu.addEventListener("click",function(){
+        var width=qiymet1.value+"px";
+        var height=qiymet2.value+"px";
+        var backgroundColor=qiymet3.value;
+        qab.style.width=width;
+        qab.style.height=height;
+        qab.style.backgroundColor=backgroundColor;
+    })
+</script>
+</body>
+</html>
