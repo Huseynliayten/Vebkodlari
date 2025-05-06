@@ -1,0 +1,14 @@
+[
+  {
+    "name": "qobu",
+    "population": 3200,
+    "activity": "Bağçılıq və heyvandarlıq",
+    "smartSystem": "Ağıllı suvarma sistemi"
+  },
+  {
+    "name": "neftçala",
+    "population": 4800,
+    "activity": "Balıqçılıq",
+    "smartSystem": "Ağıllı enerji sistemi"
+  }
+]
